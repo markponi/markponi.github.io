@@ -1,0 +1,40 @@
+/*font-family: 'Roboto Slab', serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url(giammarco-boscaro-380903_web.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-size: 100%;
+}
+
+.btn {
+    font-size: 80%;
+    margin-top: 10px;
+    transition: 100ms;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #868585;
+    text-decoration: underline;
+    transition: 100ms;
+}
+
